@@ -39,6 +39,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zeo-Jh-T6B">
                                 <rect key="frame" x="144.5" y="812" width="125" height="30"/>
                                 <state key="normal" title="Introduce Yourself"/>
+                                <connections>
+                                    <action selector="introduceYourself:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TUx-tS-Ap8"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zWY-vJ-b2Q">
                                 <rect key="frame" x="122.5" y="105.5" width="50" height="25.5"/>
@@ -62,6 +65,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="HobbiesLabel" destination="zWY-vJ-b2Q" id="b7p-ZC-7zG"/>
+                        <outlet property="nameLabel" destination="IDf-dZ-OuX" id="T9H-Ux-Mzh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
